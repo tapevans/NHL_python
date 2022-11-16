@@ -35,6 +35,7 @@ class Series:
     Loser  = ''
     HomePreviousSeries = 0
     AwayPreviousSeries = 0
+    XYPos = np.zeros(2)
     def __init__(self,number):
         self.number = number
         
