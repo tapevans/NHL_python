@@ -44,9 +44,13 @@ def updateSeries(series,teams,scores_all):
             if teams[idx_upperTeam].DivisionRank < teams[idx_lowerTeam].DivisionRank:
                 series[i].HomeTeam = teams[idx_upperTeam].name
                 series[i].AwayTeam = teams[idx_lowerTeam].name
+                series[i].HomePreviousSeries = (series[i].SeriesDep[0])-1
+                series[i].AwayPreviousSeries = (series[i].SeriesDep[1])-1
             else:
                 series[i].HomeTeam = teams[idx_lowerTeam].name
                 series[i].AwayTeam = teams[idx_upperTeam].name
+                series[i].HomePreviousSeries = (series[i].SeriesDep[1])-1
+                series[i].AwayPreviousSeries = (series[i].SeriesDep[0])-1
                 
     ## Determine if Round 2 should be analyzed
     continueUpdate = 0
@@ -86,9 +90,13 @@ def updateSeries(series,teams,scores_all):
                 if teams[idx_upperTeam].RegularSeasonRank < teams[idx_lowerTeam].RegularSeasonRank:
                     series[i].HomeTeam = teams[idx_upperTeam].name
                     series[i].AwayTeam = teams[idx_lowerTeam].name
+                    series[i].HomePreviousSeries = (series[i].SeriesDep[0])-1
+                    series[i].AwayPreviousSeries = (series[i].SeriesDep[1])-1
                 else:
                     series[i].HomeTeam = teams[idx_lowerTeam].name
                     series[i].AwayTeam = teams[idx_upperTeam].name
+                    series[i].HomePreviousSeries = (series[i].SeriesDep[1])-1
+                    series[i].AwayPreviousSeries = (series[i].SeriesDep[0])-1
     
     ## Determine if Round 3 should be analyzed
     continueUpdate = 0
@@ -128,9 +136,13 @@ def updateSeries(series,teams,scores_all):
                 if teams[idx_upperTeam].RegularSeasonRank < teams[idx_lowerTeam].RegularSeasonRank:
                     series[i].HomeTeam = teams[idx_upperTeam].name
                     series[i].AwayTeam = teams[idx_lowerTeam].name
+                    series[i].HomePreviousSeries = (series[i].SeriesDep[0])-1
+                    series[i].AwayPreviousSeries = (series[i].SeriesDep[1])-1
                 else:
                     series[i].HomeTeam = teams[idx_lowerTeam].name
                     series[i].AwayTeam = teams[idx_upperTeam].name
+                    series[i].HomePreviousSeries = (series[i].SeriesDep[1])-1
+                    series[i].AwayPreviousSeries = (series[i].SeriesDep[0])-1
                     
     ########################################################################################################################
     

@@ -75,63 +75,63 @@ scores_all[7,:,:] = np.array([
     
 
 # Series 9 Avs/Blues
-scores_all[8,:,:] = np.array([
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Blues
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Avs
 # scores_all[8,:,:] = np.array([
-#   [2, 4, 2, 3, 5, 2, np.nan],  # Blues
-#   [3, 1, 5, 6, 4, 3, np.nan]]) # Avs
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Blues
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Avs
+scores_all[8,:,:] = np.array([
+  [2, 4, 2, 3, 5, 2, np.nan],  # Blues
+  [3, 1, 5, 6, 4, 3, np.nan]]) # Avs
     
 
 # Series 10 Flames/Oilers
-scores_all[9,:,:] = np.array([
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Oilers
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Flames
 # scores_all[9,:,:] = np.array([
-#   [6, 5, 4, 5, 5, np.nan, np.nan],  # Oilers
-#   [9, 3, 1, 3, 4, np.nan, np.nan]]) # Flames
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Oilers
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Flames
+scores_all[9,:,:] = np.array([
+  [6, 5, 4, 5, 5, np.nan, np.nan],  # Oilers
+  [9, 3, 1, 3, 4, np.nan, np.nan]]) # Flames
     
 
 # Series 11 Panthers/Lightning
-scores_all[10,:,:] = np.array([
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Lightning
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Panthers
 # scores_all[10,:,:] = np.array([
-#   [4, 2, 5, 2, np.nan, np.nan, np.nan],  # Lightning
-#   [1, 1, 1, 0, np.nan, np.nan, np.nan]]) # Panthers
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Lightning
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Panthers
+scores_all[10,:,:] = np.array([
+  [4, 2, 5, 2, np.nan, np.nan, np.nan],  # Lightning
+  [1, 1, 1, 0, np.nan, np.nan, np.nan]]) # Panthers
     
 
 # Series 12 Hurricanes/Rangers
-scores_all[11,:,:] = np.array([
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Rangers
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Hurricanes
 # scores_all[11,:,:] = np.array([
-#   [1, 0, 3, 4, 1, 5, 6],  # Rangers
-#   [2, 2, 1, 1, 3, 2, 2]]) # Hurricanes
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Rangers
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Hurricanes
+scores_all[11,:,:] = np.array([
+  [1, 0, 3, 4, 1, 5, 6],  # Rangers
+  [2, 2, 1, 1, 3, 2, 2]]) # Hurricanes
     
 
 # Series 13 Avs/Oilers
-scores_all[12,:,:] = np.array([
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Oilers
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Avs
 # scores_all[12,:,:] = np.array([
-#   [6, 0, 2, 5, np.nan, np.nan, np.nan],  # Oilers
-#   [8, 4, 4, 6, np.nan, np.nan, np.nan]]) # Avs
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Oilers
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Avs
+scores_all[12,:,:] = np.array([
+  [6, 0, 2, 5, np.nan, np.nan, np.nan],  # Oilers
+  [8, 4, 4, 6, np.nan, np.nan, np.nan]]) # Avs
     
 
 # Series 14 Rangers/Lightning
-scores_all[13,:,:] = np.array([
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Lightning
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Rangers
 # scores_all[13,:,:] = np.array([
-#   [2, 2, 3, 4, 3, 2, np.nan],  # Lightning
-#   [6, 3, 2, 1, 1, 1, np.nan]]) # Rangers
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Lightning
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Rangers
+scores_all[13,:,:] = np.array([
+  [2, 2, 3, 4, 3, 2, np.nan],  # Lightning
+  [6, 3, 2, 1, 1, 1, np.nan]]) # Rangers
     
 
 # Series 15 Avs/Lightning
-scores_all[14,:,:] = np.array([
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Lightning
-  [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Avs
 # scores_all[14,:,:] = np.array([
-#  [3, 0, 6, 2, 3, 1, np.nan],  # Lightning
-#  [4, 7, 2, 3, 2, 2, np.nan]]) # Avs
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan],  # Lightning
+#   [np.nan, np.nan, np.nan, np.nan, np.nan, np.nan, np.nan]]) # Avs
+scores_all[14,:,:] = np.array([
+ [3, 0, 6, 2, 3, 1, np.nan],  # Lightning
+ [4, 7, 2, 3, 2, 2, np.nan]]) # Avs

@@ -33,7 +33,7 @@ def updateMasterGraphic(series):
         if series[ss].isComplete:
             Home = Image.open("BracketLogos/" + series[ss].HomeTeam + "Circle.png")
             Away = Image.open("BracketLogos/" + series[ss].AwayTeam + "Circle.png")
-            print(ss)
+            
             if series[ss].Winner == series[ss].HomeTeam:
                 # Winner
                 MasterBracket.paste( Home , tuple(series[ss].XYPos) )
