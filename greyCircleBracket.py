@@ -35,7 +35,7 @@ def make_grey_bracket():
         Bracket.paste(  Grey, tuple(Round0_vec[i]) )
         
 
-    display(Bracket)
+    #display(Bracket)
 
     Bracket.save("BracketResults\GreyBase.png")
 

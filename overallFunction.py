@@ -20,14 +20,16 @@ from initializeSeries   import series
 # Read data saved from individual bracket entries
 from initializeBrackets import brackets
 
-# Generate Base Bracket Graphics (Needs the teams info)
-
+# Generate Base Bracket Graphics
+from initializeBaseBracketGraphics import initializeBaseBracketGraphics as initializeBaseBracketGraphics
+initializeBaseBracketGraphics(teams)
 
 # Generate Master Bracket Graphics (Resave Base as Master)
-
+    # Acomplished in the previous function
 
 # Generate Individual Brackets Graphics
-
+from initializeIndividualBracketsGraphics import initializeIndividualBracketsGraphics as initializeIndividualBracketsGraphics
+initializeIndividualBracketsGraphics(teams,series,brackets)
 
 ###########################################################################################################################################
 ## Update Functions
@@ -42,10 +44,12 @@ from updatePoints import updatePoints as updatePoints
 updatePoints(series,teams,brackets)
 
 # Update Individual Bracket Graphics
-
+from updateIndividualBracketsGraphics import updateIndividualBracketsGraphics as updateIndividualBracketsGraphics
+updateIndividualBracketsGraphics(series,brackets)
 
 # Update Master Bracket
-
+from updateMasterGraphic import updateMasterGraphic as updateMasterGraphic
+updateMasterGraphic(series)
 
 ###########################################################################################################################################
 ## Print Bracket Results
